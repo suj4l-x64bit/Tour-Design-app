@@ -1,1 +1,5 @@
 /build
+
+git rm --cached app/src/google-services.json
+git commit -m "Remove sensitive firebase config from tracking"
+git push origin master
